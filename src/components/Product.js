@@ -263,7 +263,6 @@ const Product = () => {
                     );
                   })}
                 </div>
-
                 <div>
                   <p className="rating">(526 Rating)</p>
                 </div>
