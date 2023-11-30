@@ -1,5 +1,5 @@
 import React from "react";
-import lock from "../assets/lock.jpg";
+import lock from "../components/assets/lock.jpg";
 import { FadeIn } from "./FadeIn";
 
 const Banner = () => {

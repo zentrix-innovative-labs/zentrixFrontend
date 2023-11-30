@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/image.png";
+import image from "../components/assets/image.png";
 import { FadeIn } from "./FadeIn";
 
 const Info = () => {

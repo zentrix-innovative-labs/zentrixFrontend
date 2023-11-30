@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { FadeIn } from "./FadeIn";
 import "../components/style/Product.css";
+import frontend from "./assets/Frontend Development.png";
+import backend from "./assets/Backend Development.png";
+import datascience from "./assets/Data Science.png";
+import productdesign from "./assets/Product Design.png";
+import digital from "./assets/Digital Marketing.png";
+import analysis from "./assets/Data Analysis.png";
+import quality from "./assets/Quality Assurance.png";
+import cyber from "./assets/Cyber Security.png";
 
 const Product = () => {
   const Strikethrough = { textDecoration: "line-through" };
@@ -19,7 +27,7 @@ const Product = () => {
         </div>
         <div className="career-page">
           <div className="career-image">
-            <img src="../assets/Frontend Development.png" alt="Frontend" />
+            <img src={frontend} alt="Frontend" />
             <div className="career-details">
               <h2>Front End Development</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -55,7 +63,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Backend Development.png" alt="Backend" />
+            <img src={backend} alt="Backend" />
             <div className="career-details">
               <h2>Back End Development</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -91,7 +99,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Data Science.png" alt="Data" />
+            <img src={datascience} alt="Data" />
             <div className="career-details">
               <h2>Data Science</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -127,7 +135,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Product Design.png" alt="Product" />
+            <img src={productdesign} alt="Product" />
             <div className="career-details">
               <h2>Product Design</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -163,7 +171,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Digital Marketing.png" alt="Digital" />
+            <img src={digital} alt="Digital" />
             <div className="career-details">
               <h2>Digital Marketing</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -199,7 +207,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Data Analysis.png" alt="Analysis" />
+            <img src={analysis} alt="Analysis" />
             <div className="career-details">
               <h2>Data Analysis</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -235,7 +243,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Quality Assurance.png" alt="Quality" />
+            <img src={quality} alt="Quality" />
             <div className="career-details">
               <h2>Quality Assurance</h2>
               <p className="text-color">Zentrix Tech Team</p>
@@ -272,7 +280,7 @@ const Product = () => {
           </div>
 
           <div className="career-image">
-            <img src="../assets/Cyber Security.png" alt="Cyber" />
+            <img src={cyber} alt="Cyber" />
             <div className="career-details">
               <h2>Cyber Security</h2>
               <p className="text-color">Zentrix Tech Team</p>
