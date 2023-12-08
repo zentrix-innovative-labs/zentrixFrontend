@@ -1,10 +1,12 @@
 import React from 'react'
 import style from './style/Form.module.css'
-// import style from './Landing.module.css'
 import land from './assets/form.png'
+import Navbar from './Navbar'
 
 const Form = () => {
   return (
+    <div>
+    <Navbar/>
     <div className='container-fluid' id={style.body}>
         <div className=' container mx-auto row' id={style.zentrix}>
             <div className='col-md-4 offset-1 mt-5' >
@@ -123,6 +125,7 @@ const Form = () => {
     </div>
          
 
+    </div>
     </div>
   )
 }
