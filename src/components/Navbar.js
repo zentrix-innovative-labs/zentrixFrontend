@@ -8,14 +8,13 @@ import { useState } from "react";
 
 
 
-
 const Navbar = () => {
   let Links =[
     {name:"Home",link:"/"},
-    {name:"Virtual",link:"/"},
-    {name:"My learning",link:"/"},
-    {name:"Scholarship",link:"/"},
-    {name:"Search",link:"/"},
+    {name:"About us",link:"/"},
+    {name:"Admisson",link:"/"},
+    {name:"Acedemics",link:"/"},
+    {name:"Login",link:"/login"},
   ];
   let [open,setOpen]=useState(false);
 return (
@@ -41,12 +40,11 @@ return (
           </li>
         ))
       }
-      <Button> <a href="/signup">Sign up</a>
+
         
-      </Button>
-      <Button className="bg-white"><a href="/login"> Login</a>
+      
+      <a className="bg-purple-500 w-30 text-white font-[Poppins] py-2 px-4 rounded md:ml-8 hover:bg-indigo-400"  href="/signup">SignUp</a>
      
-      </Button>
     </ul>
     </div>
   </div>
