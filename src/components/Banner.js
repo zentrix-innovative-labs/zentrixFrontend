@@ -1,9 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
-import lock from './assets/lock.jpg'
-=======
+
 import lock from "../components/assets/lock.jpg";
->>>>>>> 13c7fe516ff7b4449549fdfe0ebdc85c93ae24ed
+
 import { FadeIn } from "./FadeIn";
 
 const Banner = () => {

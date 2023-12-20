@@ -2,6 +2,7 @@
 .kick-start{
     padding: 30px;
     width: 100%;
+    background-color: #fff;
   }
   
   .kick{
@@ -35,7 +36,7 @@
   }
   
   .career-details h2{
-    color: #fff;
+    color: #111111;
     font-size: 16px;
     font-family: tahoma;
     font-weight: 600;
@@ -43,7 +44,7 @@
   }
   
   .text-color{
-    color: #C4C4C4;
+    color: #161515;
     font-size: 12px;
     font-family: tahoma;
   }

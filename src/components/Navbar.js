@@ -3,28 +3,13 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import { useState } from "react";
 
-<<<<<<< HEAD
-
-
-
-
-
-const Navbar = () => {
-  let Links =[
-    {name:"Home",link:"/"},
-    {name:"About us",link:"/"},
-    {name:"Admisson",link:"/"},
-    {name:"Acedemics",link:"/"},
-    {name:"Login",link:"/login"},
-=======
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Virtual", link: "/" },
     { name: "My learning", link: "/" },
-    { name: "Scholarship", link: "/" },
-    { name: "Search", link: "/" },
->>>>>>> 13c7fe516ff7b4449549fdfe0ebdc85c93ae24ed
+    { name: "Login", link: "/" },
+    { name: "Signup", link: "/" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -62,41 +47,15 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Button>
-            {" "}
-            <a href="/signup">Sign up</a>
-          </Button>
-          <Button className="bg-white">
-            <a href="/login"> Login</a>
-          </Button>
+         
+          
         </ul>
       </div>
     </div>
   );
 };
 
-<<<<<<< HEAD
-    <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
-      {
-        Links.map((link)=>(
-          <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-            <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
-          </li>
-        ))
-      }
-
-        
-      
-      <a className="bg-purple-500 w-30 text-white font-[Poppins] py-2 px-4 rounded md:ml-8 hover:bg-indigo-400"  href="/signup">SignUp</a>
-     
-    </ul>
-    </div>
-  </div>
-)
-}
-=======
 export default Navbar;
->>>>>>> 13c7fe516ff7b4449549fdfe0ebdc85c93ae24ed
 
 {
   /* <nav class="navbar navbar-expand-lg bg-body-tertiary">
